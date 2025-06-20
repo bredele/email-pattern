@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Return pattern used by a given email address considering the user's first and last name.",
   "main": "dist/cjs/index.js",
+  "files": [
+    "dist"
+  ],
   "exports": {
     "import": {
       "types": "./dist/index.d.ts",
@@ -28,12 +31,15 @@
   "author": "Olivier Wietrich",
   "license": "MIT",
   "dependencies": {
-    "@bredele/guess-email": "1.0.0"
+    "@bredele/guess-email": "^1.0.0"
   },
   "devDependencies": {
     "@swc/cli": "^0.7.7",
     "@swc/core": "^1.12.3",
     "@types/node": "^24.0.3",
     "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
