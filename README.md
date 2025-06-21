@@ -5,7 +5,7 @@ Return pattern used by a given email address considering the user's first and la
 ## Installation
 
 ```sh
-$ npm install @bredele/email-pattern
+npm install @bredele/email-pattern
 ```
 
 ## Usage
